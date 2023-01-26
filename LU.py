@@ -1,3 +1,4 @@
+import tensorflow as tf
 class LU(tf.keras.layers.Layer):
     def __init__(self,hid_nodes,**kwargs):
         super(LU,self).__init__(dynamic=True)
